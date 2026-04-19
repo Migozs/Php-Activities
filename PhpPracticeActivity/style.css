@@ -1,0 +1,404 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ced7e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+
+.content {
+    width: calc(100% - 300px);
+    margin-left: 300px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pageheader {
+    margin-left: 20px;
+    width: 200px;
+    color: #4f6274;
+}
+
+/* NAVIGATION */
+.nav {
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    background-color: #0f2743;
+
+}
+
+.nav ul {
+    list-style: none;
+    padding-top: 60px;
+    padding-left: 10px;
+}
+
+.nav ul li {
+    padding: 20px 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+.nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav ul li:hover {
+    background-color: rgb(238, 229, 222);
+    cursor: pointer;
+}
+
+.nav ul li:hover a {
+    display: block;
+    color: #756e72;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/*button */
+
+button {
+    background-color: #38b2ac;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+    width: 70px;
+    font-size: 15px;
+    margin: 5px;
+}
+
+button.addbutton {
+    height: 60px;
+    width: 160px;
+    font-size: 17px;
+    margin-left: 1440px;
+}
+
+
+
+/* table design */
+.table {
+    width: 100%;
+    height: 200px;
+    margin: 10px auto;
+    border-collapse: collapse;
+    table-layout: auto;
+    text-align: center;
+    background-color: white;
+    font-size: 18px;
+}
+
+.tablecontainer {
+    width: calc(300px + 1300px);
+    height: 357.049px;
+    box-sizing: border-box;
+}
+
+.table th {
+    background-color: #2B4162;
+    color: #F5F0F6;
+}
+
+.table th, .table td {
+    border: 3px solid black;
+}
+
+
+
+/* create form design */
+.formdiv {
+    background-color: white;
+    padding: 30px 35px;
+    border-radius: 12px;
+    border: 2px solid black;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 900px;
+    height: auto;
+    margin: 10px auto;
+}
+
+.formdiv h2 {
+    color: #0a1a3a;
+    text-align: center;
+    margin: 40px auto;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+
+}
+
+.formcontainer {
+    width: calc(300px + 1300px);
+    height: 357.049px;
+    box-sizing: border-box;
+}
+
+.inputgroup {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: #2f4f9e;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+/* input and select elements */
+input[type="text"] {
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1px solid #2f4f9e;
+    background-color: #cdd9ff;
+    color: #2e3440;
+    font-size: 15px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #38b2ac;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+input[type="date"] {
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1px solid #2f4f9e;
+    background-color: #cdd9ff;
+    color: #2e3440;
+    font-size: 15px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.additionaldetails {
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1px solid #2f4f9e;
+    background-color: #cdd9ff;
+    color: #2e3440;
+    font-size: 15px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+input[type="number"] {
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1px solid #2f4f9e;
+    background-color: #cdd9ff;
+    color: #2e3440;
+    font-size: 15px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+
+input[type="submit"]:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+
+
+.selectelement {
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1px solid #2f4f9e;
+    background-color: #cdd9ff;
+    color: #2e3440;
+    font-size: 15px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+textarea[name="details"] {
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1px solid #2f4f9e;
+    background-color: #cdd9ff;
+    color: #2e3440;
+    font-size: 15px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+
+
+/* process design */
+.processcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+/* success card */
+.successcard {
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    text-align: center;
+    width: 900px;
+    height: auto;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+
+.successicon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    background: rgb(23, 108, 218);
+    color: #fff;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.successcard h1 {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.processcard p {
+    color: #555;
+    margin-bottom: 25px;
+}
+
+/* Process action buttons */
+.actionbuttons {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.actionbuttons a {
+    padding: 10px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.2s ease;
+    display: inline-flex;       
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonGoBack {
+    background: #4a90e2;
+    color: #fff;
+}
+
+.buttonGoBack:hover {
+    background: #357abd;
+}
+
+.buttonAddAnother {
+    background: #f0f0f0;
+    color: #333;
+}
+
+.buttonAddAnother:hover {
+    background: #e0e0e0;
+}
+
+/* View Form Design */
+
+.viewcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+.viewcard {
+    background: #ffffff;
+    padding: 40px 50px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 700px;
+    text-align: center;
+}
+
+.viewheader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.studenticon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #4a90e2;
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.viewcard h1 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+
+.infogroup {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.infogroup p {
+    margin: 10px 0;
+}
+
+.buttonGoBack {
+    padding: 10px 20px;
+    background: #4a90e2;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.2s ease;
+    margin-top: 20px;
+}
+
+.buttonGoBack:hover {
+    background: #357abd;
+}
